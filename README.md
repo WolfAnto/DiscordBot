@@ -19,6 +19,8 @@ Le Bot répond a chaque message qui termine par un mot précis.
 - qui - Ex : Tu connais qui?
 - si - Ex : Je te dit que si!
 
+### Il existe une multitude de variante pour chaque mot
+
 ## Démonstration
 https://user-images.githubusercontent.com/73076854/226990330-647f1ecc-e100-44a0-8929-b22aa7c6195e.mp4
 
