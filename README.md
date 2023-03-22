@@ -7,7 +7,7 @@ Un projet bot Discord en discord.js v13 qui répond au pire jeu de mot que l'on 
 
 # Comment l'utiliser ?
 
-## Installer Node.JS
+## 1. Installer Node.JS
 Sous Windows, c'est aussi simple que d'installer n'importe quel autre programme. Téléchargez la dernière version depuis le site web de Node.js, ouvrez le fichier téléchargé et suivez les étapes du programme d'installation. (https://nodejs.org/)
 
 Sur macOS :
@@ -15,14 +15,14 @@ Télécharger la dernière version depuis le site web de Node.js, ouvrir le prog
 Utiliser un gestionnaire de paquets comme Homebrew avec la commande brew install node. (https://brew.sh/)
 Sous Linux, vous pouvez consulter cette page pour déterminer comment installer Node. https://nodejs.org/en/download/package-manager/
 
-## Installation de discord.js
+## 2. Installation de discord.js
 Maintenant que vous avez installé Node.js et que vous savez comment ouvrir votre console et lancer des commandes, vous pouvez enfin installer discord.js ! Exécutez la commande suivante dans votre terminal :
 ```bash
 npm install discord.js
 ```
 Et le tour est joué ! Avec tous les éléments nécessaires installés, vous êtes presque prêt à commencer à utiliser votre bot.
 
-## Création du Bot Discord
+## 3. Création du Bot Discord
 Maintenant que vous avez installé Node, discord.js, vous êtes presque prêt à utiliser le bot ! La prochaine étape consiste à mettre en place une application Discord bot via le site web de Discord.
 
 Il est facile d'en créer un. Les étapes à suivre sont les suivantes :
