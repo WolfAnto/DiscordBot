@@ -1,5 +1,5 @@
 ## Discord-Bot-Template
-Un projet bot Discord en discord.js v13 qui répond au pire jeu de mot que l'on déteste tous !
+Un projet bot Discord en discord JS v13 qui répond au pire jeu de mots que l'on déteste tous !
 ![tumblr_phzaikqNzQ1tk76qio1_500](https://user-images.githubusercontent.com/73076854/226985968-60f6b50a-d472-47f6-8e49-84b377dbbb01.gif)
 
 Le Bot répond a chaque message qui termine par un mot précis.
@@ -20,6 +20,7 @@ Le Bot répond a chaque message qui termine par un mot précis.
 - si - Ex : Je te dit que si!
 
 ### Il existe une multitude de variante pour chaque mot
+### Si vous tentez de lui répondre ou le mentionner, il répondra avec une image "MENFOU" !
 
 ## Démonstration
 https://user-images.githubusercontent.com/73076854/226990330-647f1ecc-e100-44a0-8929-b22aa7c6195e.mp4
