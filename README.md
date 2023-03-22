@@ -2,6 +2,23 @@
 Un projet bot Discord en discord.js v13 qui répond au pire jeu de mot que l'on déteste tous !
 ![tumblr_phzaikqNzQ1tk76qio1_500](https://user-images.githubusercontent.com/73076854/226985968-60f6b50a-d472-47f6-8e49-84b377dbbb01.gif)
 
+Le Bot répond a chaque message qui termine par un mot précis.
+- Quoi - Ex: Ta dit quoi?
+- Hein - Ex: Hein?!
+- Oui - Ex : Je t'ai dit oui
+- Ouai - Ex : Euh.. ouai
+- Comment - Ex : Tu prononce ça comment?
+- Non - Ex : Tu ma dit non
+- Re - Ex : Je re
+- ah - Ex : Ah!
+- mais - Ex : Tu dit ça mais
+- allo - Ex : allo?!
+- et - Ex : Et?
+- tg - Ex : tg
+- go - Ex : vazy go!
+- qui - Ex : Tu connais qui?
+- si - Ex : Je te dit que si!
+
 ## Démonstration
 https://user-images.githubusercontent.com/73076854/226990330-647f1ecc-e100-44a0-8929-b22aa7c6195e.mp4
 
