@@ -1,5 +1,6 @@
 ## Discord-Bot-Template
 Un projet bot Discord en discord.js v13 qui répond au pire jeu de mot que l'on déteste tous !
+![tumblr_phzaikqNzQ1tk76qio1_500](https://user-images.githubusercontent.com/73076854/226985968-60f6b50a-d472-47f6-8e49-84b377dbbb01.gif)
 
 ## Démonstration
 
