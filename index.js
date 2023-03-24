@@ -17,10 +17,12 @@ const quoiResponses = ['feur !🤪', 'quoicoubeh !👈', 'Feur-me ta gueule ! �
 const heinResponses = ['deux ! 🤓', 'deux, trois, SOLEIL ! ☀️', 'dien ! 👨🏾'];
 const ouiResponses = ['stiti ! 🙉', 'Fi ! 📡'];
 const ouaiResponses = ['stern ! 🤠', 'stern ! 🤠'];
+const ouaisResponses = ['stern ! 🤠', 'stern ! 🤠'];
 const commentResponses = ['taire ! 💭', 'ça mon reuf ! 🧐', 'commendant de bord ! ✈️'];
 const nonResponses = ['bril ! 🥶', 'bril ! 🥶'];
+const nanResponses = ['çy ! 🥶', 'terre ! 🥶'];
 const reResponses = ['nard ! 🦊', 'lou ! 😒'];
-const ahResponses = ['beille ! 🐝', 'beille ! 🐝'];
+const ahResponses = ['beille ! 🐝'];
 const maisResponses = ['on ! 🏠', 'tresse ! 👩‍🏫'];
 const alloResponses = ["À l'huile ! ☎️", "pital ! 🏥"];
 const etResponses = ["toile ! 🌟", "m'en bas les couilles ! 🙃"];
@@ -28,9 +30,8 @@ const tgResponses = ["V ! 🚄", "https://tenor.com/view/uno-reverse-card-gif-24
 const goResponses = ["gole ! 🤪", "gole ! 🤪"];
 const quiResponses = ["rikou ! 🧑🏿‍🍼", "rikou ! 🧑🏿‍🍼"];
 const siResponses = ["louhette ! 👥", "louhette ! 👥"];
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
-});
+const okResponses = ["sur glace ! 🥶", "sur glace ! 🥶"];
+const ratioResponses = ["contre ratio ! ✋", "gros flop ! 😮‍💨"];
 
 console.log('Bot est ON !')
 console.log('Merci d avoir installer Bot ❤️');
@@ -42,8 +43,10 @@ client.on('message', (message) => {
   const heinRegex = /^(hein)[?!]*$/i;
   const ouiRegex = /^(oui)[?!]*$/i;
   const ouaiRegex = /^(ouai)[?!]*$/i;
+  const ouaisRegex = /^(ouais)[?!]*$/i;
   const commentRegex = /^(comment)[?!]*$/i;
   const nonRegex = /^(non)[?!]*$/i;
+  const nanRegex = /^(nan)[?!]*$/i;
   const reRegex = /^(re)[?!]*$/i;
   const ahRegex = /^(ah)[?!]*$/i;
   const maisRegex = /^(mais)[?!]*$/i;
@@ -53,6 +56,8 @@ client.on('message', (message) => {
   const goRegex = /^(go)[?!]*$/i;
   const quiRegex = /^(qui)[?!]*$/i;
   const siRegex = /^(si)[?!]*$/i;
+  const okRegex = /^(ok)[?!]*$/i;
+  const ratioRegex = /^(ratio)[?!]*$/i;
 
   if (quoiRegex.test(lastWord)) {
     const response =
@@ -69,6 +74,10 @@ client.on('message', (message) => {
   } else if (ouaiRegex.test(lastWord)) {
     const response =
       ouaiResponses[Math.floor(Math.random() * ouaiResponses.length)];
+    message.reply(response);
+  } else if (ouaisRegex.test(lastWord)) {
+    const response =
+      ouaisResponses[Math.floor(Math.random() * ouaisResponses.length)];
     message.reply(response);
   } else if (commentRegex.test(lastWord)) {
     const response =
@@ -113,6 +122,14 @@ client.on('message', (message) => {
   } else if (siRegex.test(lastWord)) {
     const response =
       siResponses[Math.floor(Math.random() * siResponses.length)];
+    message.reply(response);
+  } else if (okRegex.test(lastWord)) {
+    const response =
+      okResponses[Math.floor(Math.random() * okResponses.length)];
+    message.reply(response);
+  } else if (ratioRegex.test(lastWord)) {
+    const response =
+      ratioResponses[Math.floor(Math.random() * ratioResponses.length)];
     message.reply(response);
   }
 });
